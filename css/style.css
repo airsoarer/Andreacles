@@ -1,3 +1,21 @@
+@media screen and (max-width: 600px){
+    .title h1 {
+        font-size: auto !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    p, h1, h2, a {
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .title h1 {
+        font-size: 121px !important;;
+    }
+}
+
 body {
     padding: 0px !important;
     margin: 0px !important;
@@ -49,7 +67,7 @@ div {
 
 .title h1 {
     color: #E0E0E0;
-    font-size: 121px;
+    font-size: auto !important;
     border: solid #E0E0E0 5px;
     font-weight: 200;
     font-family: 'Lora', serif;
