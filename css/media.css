@@ -1,0 +1,16 @@
+.photo img {
+    height: 250px !important;
+}
+
+.photo {
+    margin-bottom: 50px !important;
+}
+
+a {
+    border: none !important;
+}
+
+a:hover {
+    background-color: none !important;
+    border: none !important;
+}
